@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/Basserah_Task.js"></script>
+    <title>Products System</title>
+</head>
+<body>
+    <h1>Machine Products System</h1>
+    <p>The machine product system provides a user-friendly experience, enabling customers to easily access and purchase items. <br>
+        Users interact with the machine, browse, and select products, with secure payment methods ensuring a smooth transaction. 
+    </p>
+
+        <p>
+            This machine offers a variety of products, including: 
+            <ol>
+                <li>chocolate 10 SAR</li>
+                <li>chips 15 SAR</li>
+                <li>coffee 20 SAR</li>
+            </ol>
+        </p>
+
+        <div>
+            <p> Please indicate the product number (1-3) by entering the corresponding number for your selection.</p>
+            <input type="number" id = "product_id">
+
+            <p>Enter the price you will pay</p>
+            <input type="number" id="pay"> 
+        </div>
+
+        <div style="margin-top: 10px;">
+            <button onclick="calculate()" > Pay </button>
+
+            <p id="result"></p>
+        </div>
+
+</body>
+</html>
